@@ -1,0 +1,259 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+@media (min-width: 768px) {
+    .fax span {
+        display: inline;
+    }
+
+    .email {
+        display: inline;
+    }
+}
+
+@media (min-width: 1056px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        /**Background**/
+    }}
+.mainHeader {
+    background-color: #093348;
+}
+
+.firstContent {
+    background-image: url("/asset/images/fond.png");
+    background-color: #0c405b;
+}
+
+.secondContent {
+    background-color: white;
+}
+
+.thirdContent {
+    background-color: #3ead87;
+}
+
+.fourthContent {
+    background-color: #223139;
+}
+
+.mainFooter {
+    background-color: #223139;
+}
+
+
+/**navHeader**/
+
+.img1
+{
+    background-repeat: no-repeat;
+    background-image: url("/asset/images/Ellipse1.png")
+    
+
+}
+    .menu {
+        list-style-type: none;
+    }
+
+body .mainHeader,
+.mainContent,
+.mainFooter,
+.menu {
+    height: auto;
+    display: grid;
+justify-content: baseline;
+
+}
+
+
+
+.menu {
+    height: 5em;
+    justify-content: flex-end;
+}
+
+.img {
+    display: inline-block;
+    padding: 10px 1.2em;
+
+}
+
+.img1 {
+    display: inline-block;
+    padding: 10px 1.2em;
+
+}
+
+.firstContent {
+    display: flex;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 35em;
+    padding-left: 25%;
+    padding-right: 25%;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center
+}
+
+h1 {
+    margin-top: 1.5em;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+h1>span {
+    font-size: 0.4em;
+    font-weight: 100;
+}
+
+p {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 0.8em;
+}
+
+.navseePortfolio {
+    margin-top: 3em;
+    border-style: solid;
+    padding: 15px;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.navseePortfolio a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.secondContent {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35em;
+  
+}
+
+.photo {display: inline-block;
+    margin-top: 5%;
+    align-items: center;  
+}
+
+
+.secondContent h2 {
+    text-align: center;
+    color: #212639;
+}
+
+.secondContent p {
+    text-align: center;
+    color: #212639;
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 30em;
+}
+
+.secondContent img{
+    align-items: center;
+}
+
+.secondContent  figcaption{
+    text-align: center;}
+
+.bar{
+    margin-top: 5%;
+    margin-left: 22%;
+    text-align: justify;
+}
+
+
+.thirdContent {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 35em;
+    text-align: center;
+}
+
+article>h2{
+    color: white;
+
+}
+
+h2 span{
+    font-weight: lighter;
+    font-size: small;
+}
+
+
+
+.navContact{
+    display: inline-block;
+    margin-top: 3em;
+    width: 15em;
+    border-style: solid;
+    padding: 15px;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.navContact a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.fourthContent {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 35em;
+    text-align: center;
+}
+
+.form { border-radius: 50%;}
+
+form div.text label {
+    display: none;
+}
+#message{
+resize: none;
+}
+
+.mainFooter {
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: AUTO;
+    text-align: center;
+    padding: 0.2em;
+}
+
+ .navSocial {flex-flow: wrap ; justify-items: centerµ;
+}
+
+.BAR{ALI}
